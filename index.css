@@ -1,0 +1,45 @@
+
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.quizTitleContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.quizTitle {
+    text-align: center;
+    background: grey;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    width: 700px;
+    margin: 0;
+
+}
+
+.quizBoard {
+    background: #f0efef;
+    width: 700px;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border: 1px solid gray;
+}
+
+.questionText {
+    font-size: 28px;
+}
+
+
+.answerText {
+    font-size: 15px;
+    display: inline;
+    margin-left: 3px;
+
+}
+

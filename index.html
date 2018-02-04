@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+</head>
+<body>
+<div class="quizTitleContainer">
+<h1 class="quizTitle">Welcome to population Quiz!</h1>
+</div>
+<div class="quizBoard">
+  <div id="container">
+    <div id="score" class="col-xs-12 text-center" hidden>Score:</div>
+    <div id="quiz"></div>
+    <div id="btns-storage" class="col-xs-12 text-center">
+      <button id="submit-btn" type="button" class="btn btn-info">Submit</button>
+      <button id="create-btn" type="button" class="btn btn-success" hidden>New Game</button>
+    </div>
+  </div>
+</div>
+
+<script src="lib/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="Question.js"></script>
+<script type="text/javascript" src="ResolvedQuestion.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</body>
+</html>
