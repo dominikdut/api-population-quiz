@@ -154,7 +154,6 @@ function run() {
       }));
 }
 
-
 $(document).ready(function () {
   run();
 
