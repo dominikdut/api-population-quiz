@@ -143,7 +143,6 @@ let loadCountries = function () {
 };
 
 function run() {
-  console.log('Document ready');
   loadCountries()
     .then(countries => createQuestions()
       .then(result => {
@@ -187,6 +186,4 @@ function onSubmitClicked() {
   $('#quiz').prop('hidden', true);
   $('#create-btn').prop('hidden', false);
   $('#submit-btn').prop('hidden', true);
-  console.log(score);
-  console.log(resolvedQuestions);
 }
